@@ -25,6 +25,7 @@ public class KafkaProducerConsumerApplication {
 		return new NewTopic(topicName, partitions, replicationFactor);
 	}
 	
+	
 	public static void main(String[] args) {
 		SpringApplication.run(KafkaProducerConsumerApplication.class, args);
 	}
